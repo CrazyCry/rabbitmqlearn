@@ -1,0 +1,4 @@
+Tpoic Exchange
+将routekey与某模式进行匹配。此时队列需要绑定在某种模式上面。
+符号#匹配一个或多个词           audit.# 能匹配到 audit.irs.corporate
+符号*匹配不多不少一个词         audit.* 只能匹配到audit.irs
